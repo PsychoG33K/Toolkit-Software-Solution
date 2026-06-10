@@ -1,0 +1,19 @@
+﻿{
+    "product":  "CockpitDiag Enterprise",
+    "version":  "1.0",
+    "generatedAt":  "2026-06-10T07:38:49.7404106+02:00",
+    "signMode":  "None",
+    "zipSha256":  "f8276780a1c9959e5c1c2869e51ca0e5e232c3cb2e9cef4467eb0d02d5a4139f",
+    "binaries":  [
+                     {
+                         "path":  "CockpitDiag.exe",
+                         "sha256":  "53b6519a2b8f36bbdc2cb6c01a693c158f18fb9f2db31b85592569a540740266",
+                         "signatureStatus":  "NotSigned"
+                     },
+                     {
+                         "path":  "Security\\CockpitDiag.Licensing.dll",
+                         "sha256":  "009cda727717a9d5e7790baa06161052342a845a299f09af008fcc597eb266b7",
+                         "signatureStatus":  "NotSigned"
+                     }
+                 ]
+}

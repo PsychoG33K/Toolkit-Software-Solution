@@ -1,29 +1,36 @@
 ﻿# Security Policy
 
-## Reporting Security Issues
+CockpitDiag Enterprise est développé et édité par Jarrod Barraco, entrepreneur individuel, régime micro-entreprise, exerçant sous le nom commercial Toolkit Software Solution.
 
-Please report security concerns privately to:
+## Signalement
 
-```text
-contact@toolkitsoftware.tech
-```
+Pour signaler une faille ou un problème de sécurité lié à CockpitDiag Enterprise, contacter Toolkit Software Solution à l'adresse contact@toolkitsoftware.tech avant toute publication publique du détail technique.
 
-Do not send customer reports, logs, dumps, `license.json`, private keys or sensitive machine data unless explicitly requested.
+## Données sensibles
 
-## Sensitive Data Notice
+CockpitDiag peut générer des rapports, logs, dumps, exports Wi-Fi et prompts IA contenant des informations sensibles : nom machine, nom utilisateur, chemins locaux, IP, pilotes, périphériques, SSID, éléments de configuration et parfois contenu mémoire pour les dumps.
 
-Diagnostic tools may generate reports containing:
+Les logs runtime sont stockés dans `%LOCALAPPDATA%\CockpitDiag\Logs`. Les rapports et exports restent à surveiller dans les emplacements choisis par l'utilisateur ou dans `Reports`.
 
-- machine name
-- user name
-- local paths
-- hardware information
-- driver information
-- IP/MAC/network information
-- crash or dump metadata
+Avant partage avec un tiers ou un fournisseur IA :
 
-Review and anonymize files before sharing them with any third party or AI provider.
+- relire le rapport ;
+- supprimer ou anonymiser les informations sensibles ;
+- ne pas transmettre de dumps sans validation explicite ;
+- ne pas publier `%LOCALAPPDATA%\CockpitDiag\Logs`, `Reports/`, backups, caches ou exports Wi-Fi.
+- vérifier les conditions du fournisseur IA externe choisi, car les données transmises relèvent du compte, des règles et des conditions de ce fournisseur.
 
-## AI Provider Notice
+## Actions sensibles
 
-Toolkit Software Solution does not provide, resell or sublicense third-party AI credits, accounts, API keys, tokens or API access. Users remain responsible for the data they copy, paste, transmit or submit to an external AI provider.
+Les actions suivantes doivent rester protégées par confirmation utilisateur explicite :
+
+- winget avec acceptation d'accords/licences ;
+- ProcDump/Sysinternals, dont toute acceptation d'EULA tierce comme Microsoft/Sysinternals avec `-accepteula` ;
+- export Wi-Fi avec `key=clear` ;
+- partage ou copie de prompt IA base sur un rapport système ;
+- modification globale de crash handler Windows AeDebug.
+
+## Outils tiers
+
+Ne pas redistribuer d'exécutables tiers dans une release publique sans droits explicites. Garder uniquement `Tools/README.md` si nécessaire.
+

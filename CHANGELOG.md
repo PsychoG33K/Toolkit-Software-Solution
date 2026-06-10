@@ -1,33 +1,26 @@
-﻿# Changelog
+# Changelog
 
-## CockpitDiag Enterprise v1.0 - Release Candidate Client Controlee
+## 1.0 - 2026-06-10
 
-Status: release candidate for controlled customer distribution.
+Première release publique contrôlée de CockpitDiag Enterprise.
 
-Highlights:
+### Ajouté
 
-- Proprietary Enterprise licensing model with `license.json` validation.
-- Mandatory licensing DLL validation.
-- Locked mode when no valid licence is present.
-- AutoDiag report generation with manual AI prompt workflow.
-- Dark HTML report theme with CockpitDiag branding.
-- User Guide images refreshed.
-- Runtime logs stored outside the package in local application data.
-- Final ZIP packaging checks: no runtime artifacts, no test licence, no private keys, no embedded third-party tools.
+- Interface CockpitDiag Enterprise v1.0.
+- Modules de diagnostic, maintenance, réseau, matériel, debug et rapports.
+- Génération de rapports HTML et JSON.
+- Génération de prompt IA anonymisé en mode manuel.
+- Centre d'applications portables configurable.
+- Validation de licence via `CockpitDiag.Licensing.dll`.
+- Documentation publique : licence, EULA, notice, sécurité et installation.
 
-Known V1 status:
+### Sécurité
 
-- Not signed with Authenticode.
-- SmartScreen may warn on first launch.
-- Trial licences are offline and machine-bound when generated with a machine hash.
+- Aucun compte, crédit, token, clé API ou accès API de fournisseur IA tiers n'est fourni avec CockpitDiag Enterprise.
+- `license.json` est fourni séparément aux clients ou testeurs autorisés.
+- Les clés privées de génération de licence ne sont pas incluses dans le paquet client.
 
-## MotherDiag
+### Distribution
 
-MotherDiag Community and MotherDiag Technician are managed as separate editions. Public release packaging will be documented separately after final audit and test.
-
-## GitHub Documentation Update - MotherDiag Community
-
-- Added dedicated MotherDiag Community Edition documentation.
-- Added Community installation notes.
-- Clarified that Community is free proprietary, not open source, and does not require license.json.
-
+- ZIP client hébergé sur le canal Toolkit Software Solution.
+- SHA256 publié pour vérification d'intégrité.

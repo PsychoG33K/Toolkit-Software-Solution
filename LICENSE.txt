@@ -1,0 +1,73 @@
+﻿CockpitDiag Enterprise - Licence propriétaire
+Version 1.0 - Toolkit Software Solution
+
+Copyright (c) 2026 Toolkit Software Solution. Tous droits réservés.
+
+Concepteur / Éditeur logiciel :
+Jarrod Barraco, entrepreneur individuel, régime micro-entreprise, exerçant sous le nom commercial Toolkit Software Solution.
+
+SIREN : 790729263
+SIRET : 79072926300034
+Adresse de l’entreprise : 21 rue de la République, 34290 Alignan-du-Vent, France
+Contact : contact@toolkitsoftware.tech
+
+1. Nature de la licence
+CockpitDiag Enterprise est une suite propriétaire professionnelle avancée développée et éditée par Toolkit Software Solution. Elle est conçue pour le diagnostic, la maintenance, l'analyse, le reporting et l'assistance technique en environnement Windows. Elle est concédée sous licence, et non vendue. L'utilisation, l'installation, la copie ou l'exécution du logiciel implique l'acceptation de la présente licence et de l'EULA associée.
+
+CockpitDiag Enterprise est développé et édité par Jarrod Barraco, entrepreneur individuel, régime micro-entreprise, exerçant sous le nom commercial Toolkit Software Solution.
+
+2. Autorisation d'utilisation
+Sauf accord écrit spécifique, l'utilisateur reçoit un droit personnel, limité, révocable, non exclusif et non transférable d'utiliser CockpitDiag Enterprise pour le diagnostic, la maintenance et l'analyse de postes Windows.
+
+Selon l'édition fournie ou activée et les fonctions autorisées par la licence signée, certaines fonctions peuvent être limitées, verrouillées ou réservées à un usage professionnel.
+
+3. Licence et activation
+CockpitDiag Enterprise peut utiliser un mécanisme de licence locale, notamment un fichier license.json signé numériquement. Le logiciel ne doit embarquer que les éléments nécessaires à la vérification de licence, par exemple une clé publique. La clé privée de génération ou de signature des licences ne doit jamais être incluse dans le logiciel, le dépôt, le ZIP public ou le build distribué.
+
+CockpitDiag.Licensing.dll est obligatoire pour toute validation de licence. En cas d'absence, de corruption, d'erreur de chargement ou de réponse invalide du module de licence, CockpitDiag Enterprise doit rester en mode verrouillé ou limité.
+
+Il est interdit de partager, revendre, publier, louer, copier ou transférer un fichier license.json sans autorisation écrite de Toolkit Software Solution.
+
+4. Verrou machine optionnel
+Certaines licences peuvent être liées à une machine ou à un environnement technique via un identifiant local haché non réversible dans la mesure du raisonnable. Si ce verrou est utilisé, il doit être documenté et une procédure de changement de machine peut être prévue selon les conditions commerciales applicables.
+
+5. Restrictions
+Sauf accord écrit explicite de Toolkit Software Solution, il est interdit de :
+- redistribuer le logiciel ou un paquet modifié ;
+- revendre, louer, sous-licencier ou intégrer le logiciel dans une offre commerciale tierce ;
+- modifier, désassembler, décompiler ou contourner le logiciel, sauf dans les limites autorisées par la loi applicable ;
+- contourner, supprimer, neutraliser ou altérer le contrôle de licence, y compris le module `CockpitDiag.Licensing.dll` ;
+- publier une version modifiée sous un autre nom ;
+- retirer les mentions de propriété, notices de sécurité, avertissements ou informations de licence ;
+- utiliser CockpitDiag Enterprise pour créer une offre concurrente non autorisée.
+
+6. Révocation et résiliation
+La licence peut être suspendue, révoquée ou résiliée en cas d'abus, de redistribution non autorisée, de contournement du contrôle de licence, de partage de licence, de revente non autorisée ou de violation substantielle des présentes conditions.
+
+En cas de résiliation, l'utilisateur doit cesser d'utiliser CockpitDiag Enterprise et supprimer les copies non autorisées en sa possession.
+
+7. Outils tiers
+CockpitDiag Enterprise ne confère aucun droit sur les outils tiers éventuellement référencés, lancés ou configurés par l'utilisateur. Le dossier Tools ne doit pas contenir d'outils tiers dans un paquet public sans droits explicites. L'utilisateur reste responsable d'obtenir les outils tiers depuis leurs sources officielles et de respecter leurs licences, EULA, marques et conditions de redistribution.
+
+8. Actions système
+CockpitDiag Enterprise peut appeler des fonctions Windows sensibles : diagnostic, maintenance, registre, services, réseau, winget, DISM, SFC, rapports, debug, dumps et outils externes. L'utilisateur reste responsable des actions qu'il valide, de leurs conséquences sur le système et de la sauvegarde préalable de ses données.
+
+9. Données, rapports et confidentialité
+CockpitDiag Enterprise peut générer des logs, rapports, prompts IA, exports ou dumps contenant des informations techniques sensibles. L'utilisateur est responsable de relire, anonymiser et contrôler ces contenus avant tout partage avec un tiers, un support externe ou un fournisseur IA.
+
+Toolkit Software Solution ne fournit, ne revend et ne sous-licencie aucun crédit, compte, token, clé API ou accès API de fournisseur IA tiers.
+
+L'utilisateur utilise ses propres comptes, clés API, crédits ou accès aux services IA concernés. Il reste seul responsable des données qu'il copie, colle, transmet ou soumet à un fournisseur IA externe.
+
+10. Absence de garantie
+Le logiciel est fourni en l'état, sans garantie de résultat, de disponibilité, d'absence d'erreur, d'adéquation à un usage particulier ou d'absence d'interruption. Toolkit Software Solution ne pourra être tenu responsable des pertes de données, interruptions, dommages système, erreurs de diagnostic, mauvaises utilisations ou conséquences indirectes.
+
+11. Distribution publique
+Toute publication, redistribution ou réutilisation publique autorisée doit conserver au minimum LICENSE.txt, EULA.md, README.md, NOTICE et SECURITY.md.
+
+12. Droit applicable
+Le présent contrat est soumis au droit français, sauf règle impérative contraire applicable au consommateur.
+
+En cas de litige relatif à l'interprétation, l'exécution ou la validité de la présente licence, les parties rechercheront d'abord une solution amiable.
+
+À défaut de résolution amiable, et sous réserve des règles impératives applicables, le litige relèvera de la compétence des juridictions françaises compétentes du ressort du domicile professionnel de l'éditeur.

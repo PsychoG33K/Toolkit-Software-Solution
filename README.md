@@ -1,69 +1,112 @@
-﻿# Toolkit Software Solution
+# CockpitDiag Enterprise
 
-Public presentation repository for Toolkit Software Solution diagnostic tools.
+![Version](https://img.shields.io/badge/version-1.0-00b7ff)
+![Windows](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-0078d4)
+![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-5391fe)
+![License](https://img.shields.io/badge/license-Proprietary-orange)
+![SHA256](https://img.shields.io/badge/SHA256-published-brightgreen)
 
-This repository is a documentation and presentation space only. It does not contain product binaries, PowerShell runtime sources, license-generation scripts, private keys, customer licenses or internal build material.
+CockpitDiag Enterprise est une suite professionnelle portable pour le diagnostic, la maintenance, le reporting et l'assistance technique Windows.
 
-## Products
+Developpe et edite par Jarrod Barraco, entrepreneur individuel, regime micro-entreprise, exercant sous le nom commercial Toolkit Software Solution.
 
-### CockpitDiag Enterprise
+Ce depot public est une vitrine de release et de verification. Il ne contient pas le code source proprietaire de CockpitDiag Enterprise.
 
-CockpitDiag Enterprise is a professional Windows diagnostic and maintenance suite designed for advanced technical workflows, controlled customer trials and enterprise-oriented support scenarios.
+![CockpitDiag Enterprise v1.0](assets/screenshots/cockpitdiag-enterprise-v1-dashboard.png)
 
-Current public status: V1.0 release candidate for controlled client distribution.
+## Telechargement
 
-Reference build:
+Release actuelle : `v1.0`  
+Date de publication : `2026-06-10`  
+Canal : lien prive non indexe  
+Licence client : `license.json` fourni separement aux clients autorises
+
+ZIP client :
 
 ```text
-CockpitDiag Enterprise v1.0
-SHA256: f8276780a1c9959e5c1c2869e51ca0e5e232c3cb2e9cef4467eb0d02d5a4139f
+https://toolkitsoftware.tech/downloads/private/cockpitdiag-v1-0-20260610-f8276780/CockpitDiag_Enterprise_v1.0.zip
 ```
 
-The downloadable ZIP is not stored in this repository. It is distributed through an official controlled channel.
+Empreinte SHA256 attendue :
 
-Documentation:
+```text
+f8276780a1c9959e5c1c2869e51ca0e5e232c3cb2e9cef4467eb0d02d5a4139f
+```
 
-- [CockpitDiag Enterprise](docs/cockpitdiag-enterprise.md)
-- [CockpitDiag installation](docs/installation-cockpitdiag.md)
-- [Demo / Trial 15 jours](docs/demo-trial-15-jours.md)
+Fichiers de verification :
 
-### MotherDiag
+- [SHA256SUMS.txt](release/v1.0/SHA256SUMS.txt)
+- [release-manifest.json](release/v1.0/release-manifest.json)
 
-MotherDiag is the product family for Windows diagnostic workflows with separate editions:
+Important : toute personne disposant du lien peut telecharger le ZIP. La licence d'activation reste fournie separement.
 
-- MotherDiag Community Edition: free proprietary edition, no activation licence required.
-- MotherDiag Technician Edition: professional technician edition, distributed separately under proprietary professional licence.
+## Verifier Le Fichier
 
-Documentation:
+Sous Windows PowerShell, depuis le dossier ou se trouve le ZIP :
 
-- [MotherDiag editions](docs/motherdiag.md)
-- [MotherDiag Community Edition](docs/motherdiag-community.md)
-- [MotherDiag Community installation](docs/installation-motherdiag-community.md)
+```powershell
+Get-FileHash .\CockpitDiag_Enterprise_v1.0.zip -Algorithm SHA256
+```
 
-## What This Repository Contains
+La valeur affichee doit etre exactement :
 
-- Product overview
-- Installation notes
-- Trial/demo explanation
-- Public changelog
-- Roadmap
-- Security contact
-- Release hashes/checksums
+```text
+f8276780a1c9959e5c1c2869e51ca0e5e232c3cb2e9cef4467eb0d02d5a4139f
+```
 
-## What This Repository Does Not Contain
+Si la valeur est differente, ne lancez pas le fichier et contactez le support.
 
-- Product executables
-- Runtime `.ps1` scripts
-- Licensing DLLs
-- `license.json`
-- Private keys
-- Customer licences
-- Internal build scripts
-- Third-party tools
-- Logs, reports, dumps or customer data
+## Fonctions Principales
 
-## Publisher
+- Diagnostic systeme Windows.
+- Maintenance guidee : SFC, DISM, CHKDSK, registre, nettoyage.
+- Rapports HTML et JSON.
+- Generation de prompt IA anonymise en mode manuel.
+- Centre d'applications portables configurable.
+- Analyse sante systeme et logs locaux.
+- Validation de licence via module dedie `CockpitDiag.Licensing.dll`.
 
-Developed and edited by Jarrod Barraco, entrepreneur individuel, régime micro-entreprise, exercising under the commercial name Toolkit Software Solution.
+## Installation Rapide
 
-Contact: contact@toolkitsoftware.tech
+1. Telecharger le ZIP.
+2. Verifier le SHA256.
+3. Extraire le ZIP dans un dossier local.
+4. Copier le fichier `license.json` fourni separement a la racine du dossier extrait.
+5. Lancer `CockpitDiag.exe` en administrateur.
+
+Guide complet : [docs/INSTALL.md](docs/INSTALL.md)
+
+## Licence Client
+
+Le fichier `license.json` n'est pas inclus dans ce depot ni dans le ZIP public. Il est fourni separement aux clients ou testeurs autorises.
+
+Ne publiez jamais votre fichier `license.json`.
+
+Plus de details : [docs/LICENSING.md](docs/LICENSING.md)
+
+## IA Et Services Tiers
+
+CockpitDiag Enterprise peut generer un prompt anonymise pret a copier dans un assistant IA externe. Aucune donnee n'est envoyee automatiquement par CockpitDiag.
+
+Toolkit Software Solution ne fournit, ne revend et ne sous-licencie aucun credit, compte, token, cle API ou acces API de fournisseur IA tiers.
+
+L'utilisateur utilise ses propres comptes, cles API, credits ou acces aux services IA concernes. Il reste seul responsable des donnees qu'il copie, colle, transmet ou soumet a un fournisseur IA externe.
+
+Confidentialite et donnees : [docs/PRIVACY.md](docs/PRIVACY.md)
+
+## Documents
+
+- [Licence proprietaire](LICENSE.txt)
+- [EULA](docs/EULA.md)
+- [Security Policy](SECURITY.md)
+- [NOTICE](NOTICE)
+- [Guide d'installation](docs/INSTALL.md)
+- [Licensing](docs/LICENSING.md)
+- [Privacy](docs/PRIVACY.md)
+- [FAQ](docs/FAQ.md)
+- [Support](SUPPORT.md)
+- [Changelog](CHANGELOG.md)
+
+## Support
+
+Pour une licence, une activation, un changement de machine ou un signalement : contact@toolkitsoftware.tech
