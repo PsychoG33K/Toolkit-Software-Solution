@@ -1,30 +1,28 @@
-﻿# Installation - MotherDiag Community Edition
+# Installation - MotherDiag Community Edition
 
-## Current Status
+## Statut Actuel
 
-MotherDiag Community Edition is planned as a free proprietary package. The public ZIP is not included in this GitHub documentation repository.
+MotherDiag Community Edition est prévue comme édition gratuite propriétaire. Le ZIP public n'est pas inclus dans ce dépôt de documentation GitHub.
 
-## Before Installing
+## Avant Installation
 
-Only use packages from an official Toolkit Software Solution channel.
+Utilisez uniquement des paquets provenant d'un canal officiel Toolkit Software Solution.
 
-When a Community ZIP is published, verify:
+Lorsqu'un ZIP Community sera publié, vérifiez :
 
-- the package comes from an official source;
-- the SHA256 checksum matches the published checksum;
-- no `license.json` is required for Community Edition;
-- no third-party tools are bundled unless explicitly documented.
+- que le paquet provient d'une source officielle ;
+- que le SHA256 correspond au hash publié ;
+- qu'aucun `license.json` n'est requis pour MotherDiag Community Edition ;
+- qu'aucun outil tiers n'est inclus sauf mention explicite.
 
-## SmartScreen Notice
+## SmartScreen
 
-If the Community package is unsigned, Windows SmartScreen may display a warning on first launch. This is expected for unsigned V1-style packages and does not replace checksum verification.
+Si le paquet Community n'est pas signé, Windows SmartScreen peut afficher un avertissement au premier lancement. Cet avertissement est possible pour les paquets de test ou de première version et ne remplace pas la vérification SHA256.
 
 ## Licence
 
-MotherDiag Community Edition is free proprietary software. It is not open source and it must not be confused with MotherDiag Technician Edition.
+MotherDiag Community Edition est un logiciel gratuit propriétaire. Il n'est pas open source et ne doit pas être confondu avec MotherDiag Technician Edition.
 
-## Support Contact
+## Support
 
-```text
-contact@toolkitsoftware.tech
-```
+Contact : contact@toolkitsoftware.tech

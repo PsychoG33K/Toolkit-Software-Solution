@@ -1,14 +1,14 @@
 # CockpitDiag
 
-CockpitDiag est la gamme Toolkit Software Solution orientee diagnostic, maintenance et reporting Windows pour environnements techniques.
+CockpitDiag est la gamme Toolkit Software Solution orientée diagnostic, maintenance et reporting Windows pour environnements techniques.
 
-## Editions
+## Éditions
 
 ### CockpitDiag Enterprise
 
-Edition professionnelle avancee actuellement publiee en release controlee.
+Suite propriétaire professionnelle avancée destinée aux ateliers, techniciens, MSP, services IT et environnements de support.
 
-- [Presentation et telechargement](Enterprise/README.md)
+- [Présentation et téléchargement](Enterprise/README.md)
 - [Installation](Enterprise/docs/INSTALL.md)
 - [Licence](Enterprise/LICENSE.txt)
 - [EULA](Enterprise/docs/EULA.md)
@@ -16,6 +16,6 @@ Edition professionnelle avancee actuellement publiee en release controlee.
 
 ## Distribution
 
-Le ZIP client n'est pas stocke dans ce depot. Il est distribue via le canal officiel Toolkit Software Solution avec verification SHA256.
+Le ZIP client n'est pas stocké dans ce dépôt. Il est distribué via le canal officiel Toolkit Software Solution avec vérification SHA256.
 
-Le fichier `license.json` est fourni separement aux clients autorises.
+Le fichier `license.json` est fourni séparément aux clients autorisés.

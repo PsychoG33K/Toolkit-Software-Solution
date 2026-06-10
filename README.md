@@ -1,61 +1,67 @@
 # Toolkit Software Solution
 
-![Publisher](https://img.shields.io/badge/publisher-Toolkit%20Software%20Solution-00b7ff)
-![Windows](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-0078d4)
-![License](https://img.shields.io/badge/software-Proprietary-orange)
+![Éditeur](https://img.shields.io/badge/éditeur-Toolkit%20Software%20Solution-00b7ff)
+![Windows](https://img.shields.io/badge/plateforme-Windows%2010%20%2F%2011-0078d4)
+![Licence](https://img.shields.io/badge/logiciels-propriétaires-orange)
 ![Support](https://img.shields.io/badge/contact-support-brightgreen)
 
-Depot public de presentation, documentation et verification des produits Toolkit Software Solution.
+Solutions logicielles de diagnostic, maintenance et reporting Windows.
 
-Ce depot ne contient pas les sources proprietaires, les executables internes de build, les cles privees, les licences client ou les scripts de generation de licence.
+Toolkit Software Solution développe et édite des outils destinés à structurer le diagnostic PC, améliorer la lisibilité des interventions et faciliter la production de rapports techniques.
+
+Ce dépôt public est une vitrine de présentation, de documentation et de vérification. Il ne contient pas les sources propriétaires, les exécutables internes de build, les clés privées, les licences client ou les scripts de génération de licence.
 
 ## Produits
 
-### CockpitDiag
+### CockpitDiag Enterprise
 
-Suite professionnelle orientee diagnostic, maintenance, reporting et assistance technique Windows.
+Suite propriétaire destinée aux usages professionnels avancés : ateliers, techniciens, MSP, services IT et environnements de support.
 
-- Produit public actuel : [CockpitDiag Enterprise](CockpitDiag/Enterprise/README.md)
-- Version publiee : `v1.0`
-- Distribution : lien controle avec verification SHA256
-- Licence : proprietaire avec `license.json` fourni separement aux clients autorises
+- Page produit : [CockpitDiag Enterprise](CockpitDiag/Enterprise/README.md)
+- Version publiée : `v1.0`
+- Tarif : 149€ paiement unique
+- Plan Maintenance & Évolution : 39€/an, optionnel, facturé à N+1
+- Le plan Maintenance & Évolution n'est pas obligatoire pour continuer à utiliser la version achetée
+- Distribution : canal officiel Toolkit Software Solution avec vérification SHA256
 
 ### MotherDiag
 
-Famille de produits Windows diagnostic avec editions separees.
+MotherDiag regroupe les éditions Community et Technician.
 
-- Vue editions : [MotherDiag](MotherDiag/README.md)
-- Edition Community : [MotherDiag Community](MotherDiag/docs/community.md)
-- Installation Community : [MotherDiag Community Installation](MotherDiag/docs/installation-community.md)
+- [MotherDiag](MotherDiag/README.md)
+- MotherDiag Community Edition : édition gratuite
+- MotherDiag Technician Edition : édition technicien / freemium-pro
 
-## Ce Que Contient Ce Depot
+## Distribution
 
-- Pages publiques de presentation.
-- Guides d'installation.
-- Informations de licence et support.
-- Changelogs publics.
-- Fichiers SHA256 et manifestes publics de release.
-- Captures produit publiables.
+CockpitDiag Enterprise est distribué via un canal officiel Toolkit Software Solution.
 
-## Ce Que Ce Depot Ne Contient Pas
+Les binaires ne sont pas publiés librement dans ce dépôt à ce stade. Le fichier `license.json` est fourni séparément aux clients autorisés.
 
-- Code source proprietaire.
-- Executables de build internes.
-- Scripts de packaging internes.
-- Fichiers `license.json`.
-- Cles privees de licence.
-- Dossiers `PrivateKeys`, `Licensing_Private` ou `TestLicenses`.
-- Logs, rapports, dumps ou donnees client.
-- Credits, comptes, tokens, cles API ou acces API tiers.
+## Vérification SHA256
 
-## IA Et Services Tiers
+Après téléchargement du ZIP fourni par Toolkit Software Solution, ouvrir PowerShell dans le dossier du fichier puis exécuter :
 
-Toolkit Software Solution ne fournit, ne revend et ne sous-licencie aucun credit, compte, token, cle API ou acces API de fournisseur IA tiers.
+```powershell
+Get-FileHash ".\CockpitDiag_Enterprise_v1.0.zip" -Algorithm SHA256
+```
 
-L'utilisateur utilise ses propres comptes, cles API, credits ou acces aux services IA concernes. Il reste seul responsable des donnees qu'il copie, colle, transmet ou soumet a un fournisseur IA externe.
+Le résultat doit correspondre exactement au SHA256 publié dans ce dépôt ou communiqué par Toolkit Software Solution.
 
-## Editeur
+En cas de différence, ne pas exécuter le fichier et contacter Toolkit Software Solution.
 
-Jarrod Barraco, entrepreneur individuel, regime micro-entreprise, exercant sous le nom commercial Toolkit Software Solution.
+## Sécurité
+
+Ce dépôt ne contient pas de clé privée, de fichier `license.json` client, de rapports clients, de dumps, de tokens ou de clés API.
+
+Avant tout partage de logs, rapports, captures ou prompts IA, anonymisez les données sensibles.
+
+Toolkit Software Solution ne fournit, ne revend et ne sous-licencie aucun crédit, compte, token, clé API ou accès API de fournisseur IA tiers.
+
+## Éditeur
+
+CockpitDiag Enterprise est développé et édité par Toolkit Software Solution.
+
+Les informations légales, la politique de confidentialité et les conditions commerciales sont disponibles sur le site officiel : toolkitsoftware.tech.
 
 Contact : contact@toolkitsoftware.tech

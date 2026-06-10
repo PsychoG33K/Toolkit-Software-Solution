@@ -1,14 +1,14 @@
 # Security Policy
 
-Pour signaler une faille ou un probleme de securite lie a un produit Toolkit Software Solution, contactez :
+Pour signaler une faille ou un problème de sécurité lié à un produit Toolkit Software Solution, contactez :
 
 ```text
 contact@toolkitsoftware.tech
 ```
 
-Merci de ne pas publier publiquement les details techniques avant un premier echange avec Toolkit Software Solution.
+Merci de ne pas publier publiquement les détails techniques avant un premier échange avec Toolkit Software Solution.
 
-## Donnees Sensibles
+## Données Sensibles
 
 Avant tout partage de logs, rapports, captures ou prompts IA, retirez :
 
@@ -16,14 +16,14 @@ Avant tout partage de logs, rapports, captures ou prompts IA, retirez :
 - noms utilisateur ;
 - chemins locaux ;
 - adresses IP ou MAC ;
-- numeros de serie ;
+- numéros de série ;
 - fichiers `license.json` ;
-- secrets, mots de passe, tokens ou cles API ;
-- dumps memoire ;
-- donnees client.
+- secrets, mots de passe, tokens ou clés API ;
+- dumps mémoire ;
+- données client.
 
 ## IA Et Fournisseurs Tiers
 
-Toolkit Software Solution ne fournit, ne revend et ne sous-licencie aucun credit, compte, token, cle API ou acces API de fournisseur IA tiers.
+Toolkit Software Solution ne fournit, ne revend et ne sous-licencie aucun crédit, compte, token, clé API ou accès API de fournisseur IA tiers.
 
-Les donnees transmises volontairement a un fournisseur IA externe relevent du compte, des regles et des conditions de ce fournisseur choisi par l'utilisateur.
+Les données transmises volontairement à un fournisseur IA externe relèvent du compte, des règles et des conditions de ce fournisseur choisi par l'utilisateur.

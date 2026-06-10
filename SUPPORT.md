@@ -6,22 +6,22 @@ Contact support Toolkit Software Solution : contact@toolkitsoftware.tech
 
 - Licence d'essai.
 - Licence client.
-- Activation ou probleme de `license.json`.
+- Activation ou problème de `license.json`.
 - Changement de machine.
 - Signalement de bug.
-- Signalement de securite.
+- Signalement de sécurité.
 - Question commerciale.
 
 ## Informations Utiles
 
 Pour gagner du temps, indiquez :
 
-- produit concerne : CockpitDiag ou MotherDiag ;
-- edition concernee ;
+- produit concerné : CockpitDiag ou MotherDiag ;
+- édition concernée ;
 - version ;
 - version de Windows ;
-- action realisee ;
-- resultat observe ;
-- resultat attendu.
+- action réalisée ;
+- résultat observé ;
+- résultat attendu.
 
-Ne publiez jamais de fichier `license.json`, rapport complet, dump memoire, log brut, cle API, token, mot de passe ou donnee client dans un espace public.
+Ne publiez jamais de fichier `license.json`, rapport complet, dump mémoire, log brut, clé API, token, mot de passe ou donnée client dans un espace public.

@@ -1,17 +1,17 @@
 # Licensing
 
-CockpitDiag Enterprise est un logiciel proprietaire concede sous licence.
+CockpitDiag Enterprise est un logiciel propriétaire concédé sous licence.
 
-## Editions
+## Éditions
 
-Les editions utilisees pour CockpitDiag Enterprise peuvent inclure :
+Les éditions utilisées pour CockpitDiag Enterprise peuvent inclure :
 
 - `Trial`
 - `Enterprise`
 - `Partner`
 - `Internal`
 
-Ces editions definissent les droits, la duree, les fonctionnalites et les usages autorises selon les conditions accordees par Toolkit Software Solution.
+Ces éditions définissent les droits, la durée, les fonctionnalités et les usages autorisés selon les conditions accordées par Toolkit Software Solution.
 
 ## Fichier De Licence
 
@@ -21,29 +21,29 @@ L'activation peut utiliser un fichier :
 license.json
 ```
 
-Ce fichier est fourni separement aux clients ou testeurs autorises.
+Ce fichier est fourni séparément aux clients ou testeurs autorisés.
 
-Il doit etre place a la racine du dossier CockpitDiag Enterprise, au meme niveau que `CockpitDiag.exe`.
+Il doit être placé à la racine du dossier CockpitDiag Enterprise, au même niveau que `CockpitDiag.exe`.
 
 ## Validation
 
 CockpitDiag Enterprise utilise le module `CockpitDiag.Licensing.dll` pour la validation de licence.
 
-En cas d'absence, de corruption, d'erreur de chargement ou de reponse invalide du module de licence, CockpitDiag Enterprise doit rester en mode verrouille ou limite.
+En cas d'absence, de corruption, d'erreur de chargement ou de réponse invalide du module de licence, CockpitDiag Enterprise doit rester en mode verrouillé ou limité.
 
 ## Restrictions
 
-Sauf autorisation ecrite explicite de Toolkit Software Solution, il est interdit de :
+Sauf autorisation écrite explicite de Toolkit Software Solution, il est interdit de :
 
 - partager ou publier `license.json` ;
-- revendre ou transferer une licence ;
-- contourner le controle de licence ;
+- revendre ou transférer une licence ;
+- contourner le contrôle de licence ;
 - modifier ou neutraliser `CockpitDiag.Licensing.dll` ;
-- redistribuer un paquet modifie.
+- redistribuer un paquet modifié.
 
 ## Changement De Machine
 
-Certaines licences peuvent etre liees a une machine via un identifiant hache. En cas de changement de machine, contactez Toolkit Software Solution.
+Certaines licences peuvent être liées à une machine via un identifiant haché. En cas de changement de machine, contactez Toolkit Software Solution.
 
 ## Contact
 

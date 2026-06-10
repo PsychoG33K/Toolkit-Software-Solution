@@ -1,45 +1,48 @@
-﻿# MotherDiag Community Edition
+# MotherDiag Community Edition
 
-MotherDiag Community Edition is the free proprietary edition of the MotherDiag product family.
+MotherDiag Community Edition est l'édition gratuite propriétaire de la famille MotherDiag.
 
-It is intended for users who need a simpler Windows diagnostic and information tool without the professional Technician licence workflow.
+Elle est destinée aux utilisateurs qui veulent un outil local de diagnostic Windows, d'information système et de rapport simple, sans workflow de licence technicien.
 
-## Status
+MotherDiag Community Edition est développé et édité par Toolkit Software Solution.
 
-Current status: documentation placeholder for a future public/community package.
+## Statut
 
-The Community ZIP is not stored in this repository yet. Distribution will be documented when a clean package is validated.
+Statut actuel : documentation publique préparatoire pour un futur paquet Community propre.
 
-## Licence Model
+Le ZIP Community n'est pas stocké dans ce dépôt. La distribution sera documentée lorsqu'un paquet propre aura été validé.
 
-MotherDiag Community Edition is:
+## Modèle De Licence
 
-- free to use under its own proprietary terms;
-- not open source;
-- not a Technician licence;
-- not a CockpitDiag Enterprise package;
-- distributed without activation licence requirement.
+MotherDiag Community Edition est :
 
-No `license.json` is required for Community Edition.
+- gratuit ;
+- propriétaire ;
+- non open source ;
+- distinct de MotherDiag Technician Edition ;
+- distinct de CockpitDiag Enterprise ;
+- distribué sans activation par `license.json`.
 
-## Expected Scope
+Aucun `license.json` n'est requis pour MotherDiag Community Edition.
 
-Community Edition is intended to focus on:
+## Périmètre Prévu
 
-- basic system information;
-- simple Windows diagnostic reports;
-- read-oriented checks;
-- safer workflows for general users;
-- no professional licence activation flow.
+MotherDiag Community Edition vise principalement :
 
-Advanced, technician, workshop, partner or enterprise workflows belong to MotherDiag Technician Edition or CockpitDiag Enterprise.
+- les informations système de base ;
+- les rapports simples de diagnostic Windows ;
+- les contrôles orientés lecture ;
+- les workflows plus sûrs pour utilisateurs généraux ;
+- l'absence de contrôle de licence professionnel.
 
-## Third-Party Tools
+Les workflows avancés, technicien, atelier, partenaire ou entreprise relèvent de MotherDiag Technician Edition ou de CockpitDiag Enterprise.
 
-Third-party tools are not bundled by default. Any third-party name shown in documentation or UI is descriptive only. Users must obtain tools from official sources and respect each tool licence.
+## Outils Tiers
 
-## Download
+Les outils tiers ne sont pas inclus par défaut. Tout nom de tiers affiché dans la documentation ou l'interface est utilisé à titre descriptif. Les utilisateurs doivent obtenir ces outils depuis leurs sources officielles et respecter leurs licences.
 
-No public download is attached to this repository at this stage.
+## Téléchargement
 
-When available, the official download should be distributed through a controlled official channel with SHA256 verification.
+Aucun téléchargement public n'est attaché à ce dépôt à ce stade.
+
+Lorsqu'il sera disponible, le téléchargement officiel devra être distribué via un canal officiel Toolkit Software Solution avec vérification SHA256.
