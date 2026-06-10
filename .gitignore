@@ -1,0 +1,30 @@
+﻿# GitHub presentation repository only
+# Do not publish product builds, source runtime scripts, private licensing material, logs or reports.
+
+*.zip
+*.7z
+*.rar
+*.exe
+*.dll
+*.pdb
+*.snk
+*.pfx
+*.key
+*.pem
+*.cs
+*.ps1
+*.psm1
+*.log
+*.tmp
+*.dmp
+license.json
+Licensing_Private/
+PrivateKeys/
+TestLicenses/
+TestHarness/
+Reports/
+Logs/
+Cleaner OLD/
+Build_Tools/
+Deploiement/
+Workflow/
