@@ -1,112 +1,61 @@
-# CockpitDiag Enterprise
+# Toolkit Software Solution
 
-![Version](https://img.shields.io/badge/version-1.0-00b7ff)
+![Publisher](https://img.shields.io/badge/publisher-Toolkit%20Software%20Solution-00b7ff)
 ![Windows](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-0078d4)
-![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-5391fe)
-![License](https://img.shields.io/badge/license-Proprietary-orange)
-![SHA256](https://img.shields.io/badge/SHA256-published-brightgreen)
+![License](https://img.shields.io/badge/software-Proprietary-orange)
+![Support](https://img.shields.io/badge/contact-support-brightgreen)
 
-CockpitDiag Enterprise est une suite professionnelle portable pour le diagnostic, la maintenance, le reporting et l'assistance technique Windows.
+Depot public de presentation, documentation et verification des produits Toolkit Software Solution.
 
-Developpe et edite par Jarrod Barraco, entrepreneur individuel, regime micro-entreprise, exercant sous le nom commercial Toolkit Software Solution.
+Ce depot ne contient pas les sources proprietaires, les executables internes de build, les cles privees, les licences client ou les scripts de generation de licence.
 
-Ce depot public est une vitrine de release et de verification. Il ne contient pas le code source proprietaire de CockpitDiag Enterprise.
+## Produits
 
-![CockpitDiag Enterprise v1.0](assets/screenshots/cockpitdiag-enterprise-v1-dashboard.png)
+### CockpitDiag
 
-## Telechargement
+Suite professionnelle orientee diagnostic, maintenance, reporting et assistance technique Windows.
 
-Release actuelle : `v1.0`  
-Date de publication : `2026-06-10`  
-Canal : lien prive non indexe  
-Licence client : `license.json` fourni separement aux clients autorises
+- Produit public actuel : [CockpitDiag Enterprise](CockpitDiag/Enterprise/README.md)
+- Version publiee : `v1.0`
+- Distribution : lien controle avec verification SHA256
+- Licence : proprietaire avec `license.json` fourni separement aux clients autorises
 
-ZIP client :
+### MotherDiag
 
-```text
-https://toolkitsoftware.tech/downloads/private/cockpitdiag-v1-0-20260610-f8276780/CockpitDiag_Enterprise_v1.0.zip
-```
+Famille de produits Windows diagnostic avec editions separees.
 
-Empreinte SHA256 attendue :
+- Vue editions : [MotherDiag](MotherDiag/README.md)
+- Edition Community : [MotherDiag Community](MotherDiag/docs/community.md)
+- Installation Community : [MotherDiag Community Installation](MotherDiag/docs/installation-community.md)
 
-```text
-f8276780a1c9959e5c1c2869e51ca0e5e232c3cb2e9cef4467eb0d02d5a4139f
-```
+## Ce Que Contient Ce Depot
 
-Fichiers de verification :
+- Pages publiques de presentation.
+- Guides d'installation.
+- Informations de licence et support.
+- Changelogs publics.
+- Fichiers SHA256 et manifestes publics de release.
+- Captures produit publiables.
 
-- [SHA256SUMS.txt](release/v1.0/SHA256SUMS.txt)
-- [release-manifest.json](release/v1.0/release-manifest.json)
+## Ce Que Ce Depot Ne Contient Pas
 
-Important : toute personne disposant du lien peut telecharger le ZIP. La licence d'activation reste fournie separement.
-
-## Verifier Le Fichier
-
-Sous Windows PowerShell, depuis le dossier ou se trouve le ZIP :
-
-```powershell
-Get-FileHash .\CockpitDiag_Enterprise_v1.0.zip -Algorithm SHA256
-```
-
-La valeur affichee doit etre exactement :
-
-```text
-f8276780a1c9959e5c1c2869e51ca0e5e232c3cb2e9cef4467eb0d02d5a4139f
-```
-
-Si la valeur est differente, ne lancez pas le fichier et contactez le support.
-
-## Fonctions Principales
-
-- Diagnostic systeme Windows.
-- Maintenance guidee : SFC, DISM, CHKDSK, registre, nettoyage.
-- Rapports HTML et JSON.
-- Generation de prompt IA anonymise en mode manuel.
-- Centre d'applications portables configurable.
-- Analyse sante systeme et logs locaux.
-- Validation de licence via module dedie `CockpitDiag.Licensing.dll`.
-
-## Installation Rapide
-
-1. Telecharger le ZIP.
-2. Verifier le SHA256.
-3. Extraire le ZIP dans un dossier local.
-4. Copier le fichier `license.json` fourni separement a la racine du dossier extrait.
-5. Lancer `CockpitDiag.exe` en administrateur.
-
-Guide complet : [docs/INSTALL.md](docs/INSTALL.md)
-
-## Licence Client
-
-Le fichier `license.json` n'est pas inclus dans ce depot ni dans le ZIP public. Il est fourni separement aux clients ou testeurs autorises.
-
-Ne publiez jamais votre fichier `license.json`.
-
-Plus de details : [docs/LICENSING.md](docs/LICENSING.md)
+- Code source proprietaire.
+- Executables de build internes.
+- Scripts de packaging internes.
+- Fichiers `license.json`.
+- Cles privees de licence.
+- Dossiers `PrivateKeys`, `Licensing_Private` ou `TestLicenses`.
+- Logs, rapports, dumps ou donnees client.
+- Credits, comptes, tokens, cles API ou acces API tiers.
 
 ## IA Et Services Tiers
-
-CockpitDiag Enterprise peut generer un prompt anonymise pret a copier dans un assistant IA externe. Aucune donnee n'est envoyee automatiquement par CockpitDiag.
 
 Toolkit Software Solution ne fournit, ne revend et ne sous-licencie aucun credit, compte, token, cle API ou acces API de fournisseur IA tiers.
 
 L'utilisateur utilise ses propres comptes, cles API, credits ou acces aux services IA concernes. Il reste seul responsable des donnees qu'il copie, colle, transmet ou soumet a un fournisseur IA externe.
 
-Confidentialite et donnees : [docs/PRIVACY.md](docs/PRIVACY.md)
+## Editeur
 
-## Documents
+Jarrod Barraco, entrepreneur individuel, regime micro-entreprise, exercant sous le nom commercial Toolkit Software Solution.
 
-- [Licence proprietaire](LICENSE.txt)
-- [EULA](docs/EULA.md)
-- [Security Policy](SECURITY.md)
-- [NOTICE](NOTICE)
-- [Guide d'installation](docs/INSTALL.md)
-- [Licensing](docs/LICENSING.md)
-- [Privacy](docs/PRIVACY.md)
-- [FAQ](docs/FAQ.md)
-- [Support](SUPPORT.md)
-- [Changelog](CHANGELOG.md)
-
-## Support
-
-Pour une licence, une activation, un changement de machine ou un signalement : contact@toolkitsoftware.tech
+Contact : contact@toolkitsoftware.tech
