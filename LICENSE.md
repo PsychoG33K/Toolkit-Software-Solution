@@ -8,7 +8,8 @@ Sauf mention contraire explicite, les produits présentés dans ce dépôt sont 
 
 Les marques, noms de produits et noms de tiers sont utilisés uniquement à titre descriptif.
 
-Pour les conditions applicables à CockpitDiag Enterprise, consulter :
+Pour les conditions applicables à chaque produit, consulter les dépôts publics dédiés :
 
-- [CockpitDiag Enterprise LICENSE.txt](CockpitDiag/Enterprise/LICENSE.txt)
-- [CockpitDiag Enterprise EULA](CockpitDiag/Enterprise/docs/EULA.md)
+- [CockpitDiag Enterprise](https://github.com/Toolkit-Software-Solution/CockpitDiag-Enterprise)
+- [MotherDiag Technician](https://github.com/Toolkit-Software-Solution/MotherDiag-Technician)
+- [MotherDiag Community](https://github.com/Toolkit-Software-Solution/MotherDiag-Community)
