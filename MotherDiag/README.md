@@ -42,6 +42,12 @@ Téléchargement trial contrôlé :
 https://toolkitsoftware.tech/downloads/private/MotherDiag_Technician_Edition_v1.0_TRIAL_PUBLIC/MotherDiag_Technician_Edition_v1.0_TRIAL_PUBLIC_2026-06-30.zip
 ```
 
+SHA256 attendu :
+
+```text
+EC09E6542AA6A150167B420849EF3EF508156A29C9650EB1F1BB45BD5B3CAE17
+```
+
 Documentation :
 
 - [Installation MotherDiag Technician](docs/installation-technician.md)

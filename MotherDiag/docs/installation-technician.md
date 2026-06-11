@@ -8,6 +8,22 @@ Téléchargez MotherDiag Technician Edition Trial depuis le canal officiel Toolk
 https://toolkitsoftware.tech/downloads/private/MotherDiag_Technician_Edition_v1.0_TRIAL_PUBLIC/MotherDiag_Technician_Edition_v1.0_TRIAL_PUBLIC_2026-06-30.zip
 ```
 
+## Vérifier Le SHA256
+
+Empreinte SHA256 attendue :
+
+```text
+EC09E6542AA6A150167B420849EF3EF508156A29C9650EB1F1BB45BD5B3CAE17
+```
+
+Sous Windows PowerShell :
+
+```powershell
+Get-FileHash ".\MotherDiag_Technician_Edition_v1.0_TRIAL_PUBLIC_2026-06-30.zip" -Algorithm SHA256
+```
+
+La valeur affichée doit correspondre exactement au SHA256 attendu.
+
 Le ZIP n'est pas stocké directement dans ce dépôt GitHub.
 
 ## Avant Installation
