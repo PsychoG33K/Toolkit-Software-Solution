@@ -5,7 +5,7 @@
 Téléchargez CockpitDiag Enterprise v1.0 depuis le lien fourni :
 
 ```text
-https://toolkitsoftware.tech/downloads/private/cockpitdiag-v1-0-20260611-7a76ceed/CockpitDiag_Enterprise_v1.0.zip
+https://toolkitsoftware.tech/downloads/private/cockpitdiag-v1-0-20260611-233396cd/CockpitDiag_Enterprise_v1.0.zip
 ```
 
 ## Vérifier le SHA256
@@ -13,7 +13,7 @@ https://toolkitsoftware.tech/downloads/private/cockpitdiag-v1-0-20260611-7a76cee
 Empreinte attendue :
 
 ```text
-7a76ceed9d5d20b724d0691ab043fa1166da8f50ef6ec1790f7eeea66c4a6074
+233396cd0ae553a55bd60e3b4b6000730d8736d7f08cbf0a076f6698fe1eb87c
 ```
 
 Sous Windows PowerShell :

@@ -24,7 +24,7 @@ Get-FileHash ".\CockpitDiag_Enterprise_v1.0.zip" -Algorithm SHA256
 Le hash obtenu doit correspondre au SHA256 publié par Toolkit Software Solution :
 
 ```text
-7a76ceed9d5d20b724d0691ab043fa1166da8f50ef6ec1790f7eeea66c4a6074
+233396cd0ae553a55bd60e3b4b6000730d8736d7f08cbf0a076f6698fe1eb87c
 ```
 
 ## Éditeur
