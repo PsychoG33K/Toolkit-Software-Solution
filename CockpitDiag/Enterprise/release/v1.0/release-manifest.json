@@ -1,9 +1,9 @@
 ﻿{
     "product":  "CockpitDiag Enterprise",
     "version":  "1.0",
-    "generatedAt":  "2026-06-10T07:38:49.7404106+02:00",
+    "generatedAt":  "2026-06-11T07:14:57.1096894+02:00",
     "signMode":  "None",
-    "zipSha256":  "f8276780a1c9959e5c1c2869e51ca0e5e232c3cb2e9cef4467eb0d02d5a4139f",
+    "zipSha256":  "7a76ceed9d5d20b724d0691ab043fa1166da8f50ef6ec1790f7eeea66c4a6074",
     "binaries":  [
                      {
                          "path":  "CockpitDiag.exe",
