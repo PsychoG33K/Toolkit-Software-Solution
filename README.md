@@ -15,8 +15,9 @@ Ce dépôt public est une vitrine de présentation, de documentation et de véri
 
 | Produit | Positionnement | Accès |
 |---|---|---|
+| [MotherDiag Community Edition](MotherDiag/docs/community.md) | Édition gratuite de diagnostic local Windows, orientée informations système et rapports simples. | Téléchargement public, sans activation `license.json`. |
+| [MotherDiag Technician Edition](MotherDiag/docs/installation-technician.md) | Édition technicien / freemium-pro pour interventions, atelier et workflows plus avancés. | Trial contrôlé via canal officiel Toolkit Software Solution. |
 | [CockpitDiag Enterprise](CockpitDiag/Enterprise/README.md) | Suite propriétaire professionnelle pour ateliers, techniciens, MSP, services IT et environnements de support. | Version `v1.0`, distribution contrôlée avec vérification SHA256. |
-| [MotherDiag](MotherDiag/README.md) | Famille d'outils de diagnostic local Windows, avec éditions Community et Technician. | Community publique, Technician Trial contrôlé. |
 
 ## Accès Rapide
 
