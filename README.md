@@ -13,24 +13,28 @@ Ce dépôt public est une vitrine de présentation, de documentation et de véri
 
 ## Produits
 
+| Produit | Positionnement | Accès |
+|---|---|---|
+| [CockpitDiag Enterprise](CockpitDiag/Enterprise/README.md) | Suite propriétaire professionnelle pour ateliers, techniciens, MSP, services IT et environnements de support. | Version `v1.0`, distribution contrôlée avec vérification SHA256. |
+| [MotherDiag](MotherDiag/README.md) | Famille d'outils de diagnostic local Windows, avec éditions Community et Technician. | Community publique, Technician Trial contrôlé. |
+
+## Accès Rapide
+
 ### CockpitDiag Enterprise
 
-Suite propriétaire destinée aux usages professionnels avancés : ateliers, techniciens, MSP, services IT et environnements de support.
+- [Page produit](CockpitDiag/Enterprise/README.md)
+- [Guide d'installation](CockpitDiag/Enterprise/docs/INSTALL.md)
+- [SHA256 v1.0](CockpitDiag/Enterprise/release/v1.0/SHA256SUMS.txt)
 
-- Page produit : [CockpitDiag Enterprise](CockpitDiag/Enterprise/README.md)
-- Version publiée : `v1.0`
-- Licence perpétuelle pour la version majeure achetée, avec plan Maintenance & Évolution optionnel
-- Distribution : canal officiel Toolkit Software Solution avec vérification SHA256
+Licence perpétuelle pour la version majeure achetée, avec plan Maintenance & Évolution optionnel.
 
 ### MotherDiag
 
-MotherDiag regroupe les éditions Community et Technician.
-
-- [MotherDiag](MotherDiag/README.md)
-- MotherDiag Community Edition : [téléchargement public](https://toolkitsoftware.tech/downloads/public/motherdiag/community/v1.0/MotherDiag_Community_Edition_v1.0_2026-06-10.zip)
-- MotherDiag Technician Edition : [téléchargement trial contrôlé](https://toolkitsoftware.tech/downloads/private/MotherDiag_Technician_Edition_v1.0_TRIAL_PUBLIC/MotherDiag_Technician_Edition_v1.0_TRIAL_PUBLIC_2026-06-30.zip)
-- MotherDiag Community Edition : édition gratuite
-- MotherDiag Technician Edition : édition technicien / freemium-pro
+- [Page produit](MotherDiag/README.md)
+- [MotherDiag Community Edition](MotherDiag/docs/community.md) : édition gratuite, sans activation
+- [Télécharger Community v1.0](https://toolkitsoftware.tech/downloads/public/motherdiag/community/v1.0/MotherDiag_Community_Edition_v1.0_2026-06-10.zip)
+- [MotherDiag Technician Edition Trial](MotherDiag/docs/installation-technician.md) : édition technicien / freemium-pro
+- [Télécharger Technician Trial](https://toolkitsoftware.tech/downloads/private/MotherDiag_Technician_Edition_v1.0_TRIAL_PUBLIC/MotherDiag_Technician_Edition_v1.0_TRIAL_PUBLIC_2026-06-30.zip)
 
 ## Distribution
 
