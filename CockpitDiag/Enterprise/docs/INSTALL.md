@@ -1,12 +1,10 @@
 # Installation
 
-## Télécharger
+## Distribution
 
-Téléchargez CockpitDiag Enterprise v1.0 depuis le lien fourni :
+Distribution contrôlée sur demande via le canal officiel Toolkit Software Solution.
 
-```text
-https://toolkitsoftware.tech/downloads/private/cockpitdiag-v1-0-20260611-233396cd/CockpitDiag_Enterprise_v1.0.zip
-```
+Contact : contact@toolkitsoftware.tech — le ZIP et le `license.json` sont fournis séparément aux clients autorisés.
 
 ## Vérifier le SHA256
 

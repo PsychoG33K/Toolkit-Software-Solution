@@ -19,11 +19,9 @@ Date de publication : `2026-06-10`
 Statut : distribution contrôlée  
 Licence client : `license.json` fourni séparément aux clients autorisés
 
-ZIP client :
+Distribution contrôlée sur demande via le canal officiel Toolkit Software Solution.
 
-```text
-https://toolkitsoftware.tech/downloads/private/cockpitdiag-v1-0-20260611-233396cd/CockpitDiag_Enterprise_v1.0.zip
-```
+Contact : contact@toolkitsoftware.tech — le ZIP et le `license.json` sont fournis séparément aux clients autorisés.
 
 Empreinte SHA256 attendue :
 
@@ -36,7 +34,7 @@ Fichiers de vérification :
 - [SHA256SUMS.txt](release/v1.0/SHA256SUMS.txt)
 - [release-manifest.json](release/v1.0/release-manifest.json)
 
-Important : toute personne disposant du lien peut télécharger le ZIP. La licence d'activation reste fournie séparément.
+Important : le ZIP client et la licence d'activation sont fournis séparément aux clients autorisés.
 
 ## Tarif
 
