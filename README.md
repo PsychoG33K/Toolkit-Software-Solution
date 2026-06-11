@@ -44,13 +44,17 @@ Les binaires ne sont pas publiés librement dans ce dépôt à ce stade. Le fich
 
 ## Vérification SHA256
 
-Après téléchargement du ZIP fourni par Toolkit Software Solution, ouvrir PowerShell dans le dossier du fichier puis exécuter :
+Après téléchargement d'un ZIP fourni par Toolkit Software Solution, ouvrir PowerShell dans le dossier du fichier puis exécuter :
 
 ```powershell
-Get-FileHash ".\CockpitDiag_Enterprise_v1.0.zip" -Algorithm SHA256
+Get-FileHash ".\Nom_Du_Fichier.zip" -Algorithm SHA256
 ```
 
 Le résultat doit correspondre exactement au SHA256 publié dans ce dépôt ou communiqué par Toolkit Software Solution.
+
+Pour CockpitDiag Enterprise, le SHA256 de la version publiée est disponible dans [SHA256 v1.0](CockpitDiag/Enterprise/release/v1.0/SHA256SUMS.txt).
+
+Pour MotherDiag, utiliser le SHA256 publié ou communiqué avec le paquet concerné par le canal officiel Toolkit Software Solution.
 
 En cas de différence, ne pas exécuter le fichier et contacter Toolkit Software Solution.
 
