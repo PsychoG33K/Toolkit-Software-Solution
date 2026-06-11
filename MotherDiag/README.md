@@ -34,19 +34,7 @@ MotherDiag Technician Edition correspond à l'édition technicien / freemium-pro
 
 Elle est destinée aux usages plus avancés : diagnostic de poste, interventions techniques, atelier, préparation de rapports et workflows professionnels.
 
-MotherDiag Technician Edition est distribuée via un canal officiel Toolkit Software Solution.
-
-Téléchargement trial contrôlé :
-
-```text
-https://toolkitsoftware.tech/downloads/private/MotherDiag_Technician_Edition_v1.0_TRIAL_PUBLIC/MotherDiag_Technician_Edition_v1.0_TRIAL_PUBLIC_2026-06-30.zip
-```
-
-SHA256 attendu :
-
-```text
-EC09E6542AA6A150167B420849EF3EF508156A29C9650EB1F1BB45BD5B3CAE17
-```
+MotherDiag Technician Edition est distribuée via un canal officiel Toolkit Software Solution, sur demande.
 
 Documentation :
 
