@@ -6,11 +6,15 @@ Elle est destinée aux utilisateurs qui veulent un outil local de diagnostic Win
 
 MotherDiag Community Edition est développé et édité par Toolkit Software Solution.
 
-## Statut
+## Téléchargement
 
-Statut actuel : documentation publique préparatoire pour un futur paquet Community propre.
+Le ZIP Community est distribué via le canal officiel Toolkit Software Solution :
 
-Le ZIP Community n'est pas stocké dans ce dépôt. La distribution sera documentée lorsqu'un paquet propre aura été validé.
+```text
+https://toolkitsoftware.tech/downloads/public/motherdiag/community/v1.0/MotherDiag_Community_Edition_v1.0_2026-06-10.zip
+```
+
+Le ZIP n'est pas stocké directement dans ce dépôt GitHub.
 
 ## Modèle De Licence
 
@@ -41,8 +45,6 @@ Les workflows avancés, technicien, atelier, partenaire ou entreprise relèvent 
 
 Les outils tiers ne sont pas inclus par défaut. Tout nom de tiers affiché dans la documentation ou l'interface est utilisé à titre descriptif. Les utilisateurs doivent obtenir ces outils depuis leurs sources officielles et respecter leurs licences.
 
-## Téléchargement
+## Vérification
 
-Aucun téléchargement public n'est attaché à ce dépôt à ce stade.
-
-Lorsqu'il sera disponible, le téléchargement officiel devra être distribué via un canal officiel Toolkit Software Solution avec vérification SHA256.
+Vérifiez toujours que le paquet provient du canal officiel Toolkit Software Solution avant exécution.

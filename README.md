@@ -19,9 +19,7 @@ Suite propriétaire destinée aux usages professionnels avancés : ateliers, tec
 
 - Page produit : [CockpitDiag Enterprise](CockpitDiag/Enterprise/README.md)
 - Version publiée : `v1.0`
-- Tarif : 149€ paiement unique
-- Plan Maintenance & Évolution : 39€/an, optionnel, facturé à N+1
-- Le plan Maintenance & Évolution n'est pas obligatoire pour continuer à utiliser la version achetée
+- Licence perpétuelle pour la version majeure achetée, avec plan Maintenance & Évolution optionnel
 - Distribution : canal officiel Toolkit Software Solution avec vérification SHA256
 
 ### MotherDiag
@@ -29,6 +27,8 @@ Suite propriétaire destinée aux usages professionnels avancés : ateliers, tec
 MotherDiag regroupe les éditions Community et Technician.
 
 - [MotherDiag](MotherDiag/README.md)
+- MotherDiag Community Edition : [téléchargement public](https://toolkitsoftware.tech/downloads/public/motherdiag/community/v1.0/MotherDiag_Community_Edition_v1.0_2026-06-10.zip)
+- MotherDiag Technician Edition : [téléchargement trial contrôlé](https://toolkitsoftware.tech/downloads/private/MotherDiag_Technician_Edition_v1.0_TRIAL_PUBLIC/MotherDiag_Technician_Edition_v1.0_TRIAL_PUBLIC_2026-06-30.zip)
 - MotherDiag Community Edition : édition gratuite
 - MotherDiag Technician Edition : édition technicien / freemium-pro
 

@@ -1,14 +1,20 @@
 # Installation - MotherDiag Community Edition
 
-## Statut Actuel
+## Télécharger
 
-MotherDiag Community Edition est prévue comme édition gratuite propriétaire. Le ZIP public n'est pas inclus dans ce dépôt de documentation GitHub.
+Téléchargez MotherDiag Community Edition depuis le canal officiel Toolkit Software Solution :
+
+```text
+https://toolkitsoftware.tech/downloads/public/motherdiag/community/v1.0/MotherDiag_Community_Edition_v1.0_2026-06-10.zip
+```
+
+Le ZIP public n'est pas inclus directement dans ce dépôt de documentation GitHub.
 
 ## Avant Installation
 
 Utilisez uniquement des paquets provenant d'un canal officiel Toolkit Software Solution.
 
-Lorsqu'un ZIP Community sera publié, vérifiez :
+Avant exécution, vérifiez :
 
 - que le paquet provient d'une source officielle ;
 - que le SHA256 correspond au hash publié ;

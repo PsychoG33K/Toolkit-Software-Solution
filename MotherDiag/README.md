@@ -22,13 +22,29 @@ Documentation :
 - [MotherDiag Community Edition](docs/community.md)
 - [Installation MotherDiag Community](docs/installation-community.md)
 
+Téléchargement public :
+
+```text
+https://toolkitsoftware.tech/downloads/public/motherdiag/community/v1.0/MotherDiag_Community_Edition_v1.0_2026-06-10.zip
+```
+
 ## MotherDiag Technician Edition
 
 MotherDiag Technician Edition correspond à l'édition technicien / freemium-pro.
 
 Elle est destinée aux usages plus avancés : diagnostic de poste, interventions techniques, atelier, préparation de rapports et workflows professionnels.
 
-Les informations de packaging et de distribution publique seront publiées après audit final, validation de build et canal officiel Toolkit Software Solution.
+MotherDiag Technician Edition est distribuée via un canal officiel Toolkit Software Solution.
+
+Téléchargement trial contrôlé :
+
+```text
+https://toolkitsoftware.tech/downloads/private/MotherDiag_Technician_Edition_v1.0_TRIAL_PUBLIC/MotherDiag_Technician_Edition_v1.0_TRIAL_PUBLIC_2026-06-30.zip
+```
+
+Documentation :
+
+- [Installation MotherDiag Technician](docs/installation-technician.md)
 
 ## Séparation Des Produits
 
